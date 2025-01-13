@@ -12,7 +12,7 @@ public class HomePage extends TestBase {
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy(xpath = "//a[@class='tds-header-nav--list_link tds-link_for-login tds-header-nav--auth_link']")
+    @FindBy(xpath = "//a[@id='dx-nav-item--account']")
     public WebElement signIn;
 
     public String getTitle(){

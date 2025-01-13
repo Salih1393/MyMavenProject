@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd160c89-a87d-4370-a189-8a5c147aa558" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyMavenProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyMavenProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/SeleniumUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/CyberTruckPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/CyberTruckPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/RegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/CyberTruckPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/CyberTruckPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/SeleniumUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/SeleniumUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.HomePageTest.verifyHomePageTitle (1).executor": "Run",
     "TestNG.HomePageTest.verifyHomePageTitle.executor": "Run",
+    "TestNG.HomePageTest.verifySignInButton.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -84,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.HomePageTest.verifyHomePageTitle">
+  <component name="RunManager" selected="TestNG.HomePageTest.verifySignInButton">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,8 +118,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageTest.verifySignInButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="METHOD_NAME" value="verifySignInButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest.verifySignInButton" />
         <item itemvalue="TestNG.HomePageTest.verifyHomePageTitle" />
         <item itemvalue="TestNG.HomePageTest.verifyHomePageTitle (1)" />
       </list>
@@ -160,7 +166,7 @@
       <workItem from="1736652432149" duration="1657000" />
       <workItem from="1736699888210" duration="4074000" />
       <workItem from="1736729616276" duration="266000" />
-      <workItem from="1736732153033" duration="62000" />
+      <workItem from="1736732153033" duration="836000" />
     </task>
     <servers />
   </component>

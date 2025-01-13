@@ -31,7 +31,7 @@ public class HomePageTest extends TestBase {
 
     @Test
     public void verifySignInButton(){
-        String expectedTitle = "Tesla SSO – Login";
+        String expectedTitle = "Tesla SSO - Sign In";
         homePage.clickSignInButton();
         Assert.assertEquals(driver.getTitle(),expectedTitle);
 
