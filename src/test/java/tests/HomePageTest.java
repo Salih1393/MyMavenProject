@@ -25,7 +25,7 @@ public class HomePageTest extends TestBase {
     @Test
     public void verifyHomePageTitle(){
         String actual = homePage.getTitle();
-        Assert.assertEquals(actual, "Electric Cars, Solar Panels & Clean Energy Storage | Tesla");
+        Assert.assertEquals(actual, "Electric Cars, Solar & Clean Energy | Tesla");
 
     }
 
